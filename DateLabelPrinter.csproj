@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Properties\logo.ico</ApplicationIcon>
+    <RootNamespace>DateLabelPrinter</RootNamespace>
+    <AssemblyName>DateLabelPrinter</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Properties\logo.ico" />
+  </ItemGroup>
+
+</Project>
